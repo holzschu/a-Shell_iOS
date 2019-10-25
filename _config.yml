@@ -38,24 +38,24 @@ features                                  :
     description                           : The power of command line instructions, on your favorite device. 
     fontawesome_icon_name                 : terminal
     
-  - title                                 : File commands
-    description                           : .
-    fontawesome_icon_name                 : mobile
+  - title                                 : Control your files
+    description                           : Create directories, move files, compress them, uncompress them, edit them, run python, lua or Tex on your files, move them to other apps.
+    fontawesome_icon_name                 : file
 
-  - title                                 : Network commands
-    description                           : .
-    fontawesome_icon_name                 : play-circle
+  - title                                 : Check your network
+    description                           : Check connectivity with ping, check site identity with nslookup or whois, transfer files with curl or scp...
+    fontawesome_icon_name                 : wifi
 
   - title                                 : Edit your files inside the App
-    description                           : "a-Shell comes with <a href='https://www.vim.org'>Vim</a> included. You can edit your files, install packages, run syntax checkers using <a href='https://github.com/prabirshrestha/vim-lsp'>vim-lsp</a> or <a href='https://github.com/dense-analysis/ale'>ALE</a>. Or, if you're more old-school, there is also Ed."
+    description                           : "a-Shell comes with <a href='https://www.vim.org'>Vim</a> included. You can edit your files and even run syntax checkers using e.g. <a href='https://github.com/prabirshrestha/vim-lsp'>vim-lsp</a> or <a href='https://github.com/dense-analysis/ale'>ALE</a>. Or, if you're more old-school, there is also Ed."
     fontawesome_icon_name                 : edit
 
   - title                                 : Plays well with others
-    description                           : .
+    description                           : a-Shell uses iOS file sharing ability. You can open directories in other app sandbox, run TeX or Python there, send the result in a third app. You can also edit files directly in 
     fontawesome_icon_name                 : share-alt
   
   - title                                 : Multiple shell windows
-    description                           : .
+    description                           : a-Shell uses iOS 13 multi-window ability. Edit your files in one window, process them in another, transfer them in a third...
     fontawesome_icon_name                 : star
 
   - title                                 : Available on TestFlight 
