@@ -20,12 +20,12 @@ You can move the files created inside a-Shell outside of its own directory, into
 
 <br>
 
-## 1.0 Information We Collect
+### 1.0 Information We Collect
 
 We do not collect any information. 
 
 
-### 1.2 Information you provide to us 
+### 1.1 Information you provide to us 
 
 When the application crashes, you have the option to send a crash report to the developers. This crash report will contain information about what caused the crash, such as the functions being called. This information will be used to fix what caused the crash. 
 
