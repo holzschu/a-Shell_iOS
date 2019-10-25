@@ -12,7 +12,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : a-Shell                                   # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Text-based user interface for a screen-based platform
+app_description                           : A text-based user interface for a screen-based platform
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -20,7 +20,7 @@ enable_smart_app_banner                   : true                                
 
 # Information About Yourself
 your_name                                 : Nicolas Holzschuch                                
-your_link                                 : https://emilbaehr.com                     
+your_link                                 : https://github.com/holzschu/a-shell                     
 your_city                                 : Grenoble                                
 email_address                             : another_shell@icloud.com
 facebook_username                         :                                           
@@ -34,9 +34,9 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
-    fontawesome_icon_name                 : magic
+  - title                                 : A Terminal in your pocket (or on your desk)
+    description                           : The power of command line instructions, on your favorite device. 
+    fontawesome_icon_name                 : terminal
     
   - title                                 : iPhone Device Preview
     description                           : Preview your app in the context of an iPhone device. Five different device colors included.
@@ -58,17 +58,20 @@ features                                  :
     description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
     fontawesome_icon_name                 : star
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
+  - title                                 : Available on TestFlight 
+    description                           : "a-Shell is available on <a href='https://testflight.apple.com/join/WUdKe3f4'>TestFlight</a>."
+    fontawesome_icon_name                 : vial
 
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
+  - title                                 : OpenSource
+    description                           : "a-Shell is entirely <a href='https://github.com/holzschu/a-Shell'>OpenSource</a>, and released under the FreeBSD license."
+    fontawesome_icon_name                 : lock-open
 
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
+  - title                                 : Suggestion box
+    description                           : "Need more packages? Found a bug? Want to suggest a feature? Open an <a href='https://github.com/holzschu/a-shell/issues'>issue</a>."
+    fontawesome_icon_name                 : envelope-open-text
+    
+
+
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
