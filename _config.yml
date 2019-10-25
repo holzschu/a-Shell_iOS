@@ -67,7 +67,7 @@ features                                  :
     fontawesome_icon_name                 : lock-open
 
   - title                                 : Suggestion box
-    description                           : "Need more packages? Found a bug? Want to suggest a feature? Open an <a href='https://github.com/holzschu/a-shell/issues'>issue</a>."
+    description                           : "Need more commands? Found a bug? Want to suggest a feature? Open an <a href='https://github.com/holzschu/a-shell/issues'>issue</a>."
     fontawesome_icon_name                 : envelope-open-text
     
 
