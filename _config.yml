@@ -51,12 +51,12 @@ features                                  :
     fontawesome_icon_name                 : edit
 
   - title                                 : Plays well with others
-    description                           : a-Shell uses iOS file sharing ability. You can open directories in other app sandbox, run TeX or Python there, send the result in a third app. You can also edit files directly in 
+    description                           : a-Shell uses iOS file sharing ability. You can open directories in other app sandbox, run TeX or Python there, send the result in a third app. You can also edit files directly in a-Shell.
     fontawesome_icon_name                 : share-alt
   
   - title                                 : Multiple shell windows
     description                           : a-Shell uses iOS 13 multi-window ability. Edit your files in one window, process them in another, transfer them in a third...
-    fontawesome_icon_name                 : star
+    fontawesome_icon_name                 : window-restore
 
   - title                                 : Available on TestFlight 
     description                           : "a-Shell is available on <a href='https://testflight.apple.com/join/WUdKe3f4'>TestFlight</a>."
