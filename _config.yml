@@ -59,7 +59,7 @@ features                                  :
     fontawesome_icon_name                 : window-restore
 
   - title                                 : Program on your iPad (or your iPhone)
-    description                           : a-Shell comes with several programming languages: Lua, Python and C. Edit your programs and run them inside the app.
+    description                           : "a-Shell comes with several programming languages: Lua, Python and C. Edit your programs and run them inside the app."
     fontawesome_icon_name                 : bug
 
   - title                                 : Install more packages
