@@ -9,6 +9,33 @@ include_in_header: true
 <br>
 
 ### `Latest`
+# **Version 1.3**
+#### What's New
+- the cursor is now indicating the active window 
+- we've added the [taskwarrior](https://taskwarrior.org) utilities (`task`) 
+- we've added the `clang` and `clang++` compilers. They translate your C code into LLVM bytecode (IR), which you can execute using the LLVM interpreter (`lli`).
+```
+$ clang file.c
+$ lli file.ll
+```
+- you can even combine multiple bytecode files together with `llvm-link`:
+```
+$ clang file1.c
+$ clang file2.c
+$ llvm-link -o result.bc file1.ll file2.ll
+$ lli result.bc
+```
+- Your programs have access to the C library, so `printf()`, `scanf()`, etc... work.
+- C++ input/output functions do not work. Its main use is to check for syntax errors in your code.
+- You can also compile to WebAssembly or Arm64 targets, but not execute the result of your compilations. 
+
+
+#### Bug fixes
+- fixed the Python installation (this removes the `No module named "encodings"` error)
+- more robust job management in Vim
+
+
+
 # **Version 1.2**
 
 #### What's New
