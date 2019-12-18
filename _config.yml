@@ -58,6 +58,18 @@ features                                  :
     description                           : a-Shell uses iOS 13 multi-window ability. Edit your files in one window, process them in another, transfer them in a third...
     fontawesome_icon_name                 : window-restore
 
+  - title                                 : Program on your iPad (or your iPhone)
+    description                           : a-Shell comes with several programming languages: Lua, Python and C. Edit your programs and run them inside the app.
+    fontawesome_icon_name                 : bug
+
+  - title                                 : Install more packages
+    description                           : Use "pip install" to add more Python packages (if they are pure Python, since there are no way to send the result of the C compiler to the app). 
+    fontawesome_icon_name                 : archive
+
+  - title                                 : Run your C files (yes, really)
+    description                           : clang compiles your C files to LLVM intermediate representation (IR, or bytecode). Execute the resulting file using lli (LLVM interpreter).
+    fontawesome_icon_name                 : paper-plane
+
   - title                                 : Available on TestFlight 
     description                           : "a-Shell is available on <a href='https://testflight.apple.com/join/WUdKe3f4'>TestFlight</a>."
     fontawesome_icon_name                 : vial
