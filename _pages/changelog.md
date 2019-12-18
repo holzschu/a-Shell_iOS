@@ -34,7 +34,7 @@ $ lli result.bc
 - fixed the Python installation (this removes the `No module named "encodings"` error)
 - more robust job management in Vim
 
-
+<br>
 
 # **Version 1.2**
 
@@ -51,6 +51,11 @@ $ lli result.bc
 #### Bug Fixes
 - accented characters had issues on some keyboards (not all). This is fixed now.
 
+<br>
+
+________
+<br>
+
 # **Version 1.1**
 
 #### What's New
@@ -58,6 +63,8 @@ Opening files in Vim when Vim is already running: you have the option to open in
 
 #### Bug Fixes
 - a-Shell can now open files with spaces in their names. That includes files from iCloud and external file providers. 
+
+<br>
 
 # **Version 1.0**
 First release on the AppStore. 
