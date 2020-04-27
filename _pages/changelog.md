@@ -9,6 +9,14 @@ include_in_header: true
 <br>
 
 ### `Latest`
+# **Version 1.4**
+#### What's New
+- `clang` and `clang++` now compile to [webAssembly](https://wasmer.io), and you can execute code with `wasm programName`.
+- the [wasi-sdk](https://wasi.dev) is included, so you can just compile your files with `clang file.c`.
+- The LLVM bytecode interpreter `lli` still works, but the default behaviour is now to compile to webAssembly.
+- webAssembly programs can read their standard input (but not interactively), write to their standard output and to local files.
+
+<br>
 # **Version 1.3**
 #### What's New
 - the cursor is now indicating the active window 
@@ -33,8 +41,6 @@ $ lli result.bc
 #### Bug fixes
 - fixed the Python installation (this removes the `No module named "encodings"` error)
 - more robust job management in Vim
-
-<br>
 
 # **Version 1.2**
 
