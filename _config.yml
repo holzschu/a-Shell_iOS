@@ -67,7 +67,7 @@ features                                  :
     fontawesome_icon_name                 : archive
 
   - title                                 : Run your C and C++ files (yes, really)
-    description                           : "clang/clang++ compiles your C/C++ files to <a href='https://wasmer.io'>webAssembly</a> with <a href='https://wasi.dev'>wasi</a> included. Executee the resulting files using 'wasm command'. You can also compile to webAssembly elsewhere and bring the files to your iPad."
+    description                           : "clang/clang++ compiles your C/C++ files to <a href='https://wasmer.io'>webAssembly</a> with <a href='https://wasi.dev'>wasi</a> included. Execute the resulting files using 'wasm command'. You can also compile to webAssembly elsewhere and bring the files to your iPad."
     fontawesome_icon_name                 : paper-plane
 
   - title                                 : Available on TestFlight 
