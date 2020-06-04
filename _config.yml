@@ -42,16 +42,16 @@ features                                  :
     description                           : Create directories, move files, compress them, uncompress them, edit them, run python, lua or Tex on your files, move them to other apps.
     fontawesome_icon_name                 : file
 
-  - title                                 : Check your network
-    description                           : Check connectivity with ping, check site identity with nslookup or whois, transfer files with curl or scp...
-    fontawesome_icon_name                 : wifi
-
   - title                                 : Edit your files inside the App
     description                           : "a-Shell comes with <a href='https://www.vim.org'>Vim</a> included. You can edit your files and even run syntax checkers using e.g. <a href='https://github.com/prabirshrestha/vim-lsp'>vim-lsp</a> or <a href='https://github.com/dense-analysis/ale'>ALE</a>. Or, if you're more old-school, there is also Ed."
     fontawesome_icon_name                 : edit
 
+  - title                                 : Shortcuts 
+    description                           : a-Shell is compatible with Apple Shortcuts. Script your favorite commands, transfer files to other apps, typeset files, download files... 
+    fontawesome_icon_name                 : staylinked
+
   - title                                 : Plays well with others
-    description                           : a-Shell uses iOS file sharing ability. You can open directories in other app sandbox, run TeX or Python there, send the result in a third app. You can also edit files directly in a-Shell.
+    description                           : a-Shell uses iOS file sharing ability. You can open directories in other app sandbox with "pickFolder" and run TeX or Python there. You can send the result in a third app. You can also edit files directly in a-Shell.
     fontawesome_icon_name                 : share-alt
   
   - title                                 : Multiple shell windows
@@ -62,13 +62,13 @@ features                                  :
     description                           : "a-Shell comes with several programming languages: Lua, Python, JavaScript, C and C++. Edit your programs and run them inside the app."
     fontawesome_icon_name                 : bug
 
-  - title                                 : Install more packages
-    description                           : Use "pip install" to add more Python packages (if they are pure Python, since there are no way to send the result of the C compiler to the app). 
-    fontawesome_icon_name                 : archive
-
   - title                                 : Run your C and C++ files (yes, really)
     description                           : "clang/clang++ compiles your C/C++ files to <a href='https://wasmer.io'>webAssembly</a> with <a href='https://wasi.dev'>wasi</a> included. Executee the resulting files using 'wasm command'. You can also compile to webAssembly elsewhere and bring the files to your iPad."
     fontawesome_icon_name                 : paper-plane
+
+  - title                                 : Install more packages
+    description                           : "Use 'pip install' to add more Python packages (if they are pure Python). Download  <a href='https://github.com/holzschu/a-Shell-commands'>pre-compiled webAssembly commands</a>".
+    fontawesome_icon_name                 : archive
 
   - title                                 : Available on TestFlight 
     description                           : "a-Shell is available on <a href='https://testflight.apple.com/join/WUdKe3f4'>TestFlight</a>."
