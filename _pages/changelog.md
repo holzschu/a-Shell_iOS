@@ -9,6 +9,20 @@ include_in_header: true
 <br>
 
 ### `Latest`
+
+# **Version 1.5**
+#### What's New
+- **Shortcuts**: a-Shell is compatible with Apple Shortcuts. Run commands with "Execute command", transfer files with "Get file" and "Put file". The possibilities are pretty much endless. "Execute command" can take a text node or a file as input, so you can write scripts.
+- **Customization**: change the font, the colors, everything, from inside the App with `config`. You can even have different settings for different windows. Every new session loads the `.profile` file, for custom environment variables.
+- more pre-compiled commands are available at: https://github.com/holzschu/a-Shell-commands These have been compiled to WebAssembly. You can download them, place them in the `$PATH` and they will be executed. 
+- **Voiceover**: if you enable Voiceover in Settings, a-Shell will speak to you, reading commands and their output. 
+
+#### Improvements:
+- the Alt key now works for all character input. 
+- Autocomplete on the command line goes as far as it can.
+- Command-X cuts text on the command line.
+
+<br>
 # **Version 1.4**
 #### What's New
 - `clang` and `clang++` now compile to [webAssembly](https://wasmer.io), and you can execute code with `wasm programName`.
@@ -16,6 +30,8 @@ include_in_header: true
 - The LLVM bytecode interpreter `lli` still works, but the default behaviour is now to compile to webAssembly.
 - webAssembly programs can read their standard input (but not interactively), write to their standard output and to local files.
 
+<br>
+________
 <br>
 # **Version 1.3**
 #### What's New
@@ -42,6 +58,8 @@ $ lli result.bc
 - fixed the Python installation (this removes the `No module named "encodings"` error)
 - more robust job management in Vim
 
+<br>
+
 # **Version 1.2**
 
 #### What's New
@@ -57,10 +75,6 @@ $ lli result.bc
 #### Bug Fixes
 - accented characters had issues on some keyboards (not all). This is fixed now.
 
-<br>
-
-________
-<br>
 
 # **Version 1.1**
 
