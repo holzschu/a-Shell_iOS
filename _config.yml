@@ -47,7 +47,7 @@ features                                  :
     fontawesome_icon_name                 : edit
 
   - title                                 : Shortcuts 
-    description                           : a-Shell is compatible with Apple Shortcuts. Script your favorite commands, transfer files to other apps, typeset files, download files... 
+    description                           : "a-Shell is compatible with Apple Shortcuts. Script your favorite commands, transfer files to other apps, typeset files, download files..." 
     fontawesome_icon_name                 : staylinked
 
   - title                                 : Plays well with others
@@ -67,7 +67,7 @@ features                                  :
     fontawesome_icon_name                 : paper-plane
 
   - title                                 : Install more packages
-    description                           : "Use 'pip install' to add more Python packages (if they are pure Python). Download  <a href='https://github.com/holzschu/a-Shell-commands'>pre-compiled webAssembly commands</a>".
+    description                           : "Use 'pip install' to add more Python packages (if they are pure Python). Download  <a href='https://github.com/holzschu/a-Shell-commands'>pre-compiled webAssembly commands</a>."
     fontawesome_icon_name                 : archive
 
   - title                                 : Available on TestFlight 
