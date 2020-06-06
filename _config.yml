@@ -48,7 +48,7 @@ features                                  :
 
   - title                                 : Shortcuts 
     description                           : "a-Shell is compatible with Apple Shortcuts. Script your favorite commands, transfer files to other apps, typeset files, download files..." 
-    fontawesome_icon_name                 : staylinked
+    fontawesome_icon_name                 : code
 
   - title                                 : Plays well with others
     description                           : a-Shell uses iOS file sharing ability. You can open directories in other app sandbox with pickFolder and run TeX or Python there. You can send the result in a third app. You can also edit files directly in a-Shell.
