@@ -18,9 +18,10 @@ include_in_header: true
 - **Voiceover**: if you enable Voiceover in Settings, a-Shell will speak to you, reading commands and their output. 
 
 #### Improvements:
-- the Alt key now works for all character input. 
+- the Alt key now works for all character input on international keyboards.
 - Autocomplete on the command line goes as far as it can.
 - Command-X cuts text on the command line.
+- Multiple bug fixes.
 
 <br>
 # **Version 1.4**
